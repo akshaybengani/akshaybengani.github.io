@@ -1,539 +1,1007 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
     <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="icon" href="img/favicon.png" type="image/png">
-        <title>MeetMe Personal</title>
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="vendors/linericon/style.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
-        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
-        <link rel="stylesheet" href="vendors/animate-css/animate.css">
-        <link rel="stylesheet" href="vendors/popup/magnific-popup.css">
-        <link rel="stylesheet" href="vendors/flaticon/flaticon.css">
-        <!-- main css -->
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
+        <title>Akshay Bengani | Portfolio</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/5b085c0ec3.js"></script> 
+        <link rel="stylesheet" type="text/css" href="./css/main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="./images/logo-title.png">
+        <link href="https://fonts.googleapis.com/css?family=Maven+Pro&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     </head>
-    <body>
+
+    <body data-spy="scroll" data-target="#nav-scroll" >
         
-        <!--================Header Menu Area =================-->
-        <header class="header_area">
-            <div class="main_menu">
-            	<nav class="navbar navbar-expand-lg navbar-light">
-					<div class="container box_1620">
-						<!-- Brand and toggle get grouped for better mobile display -->
-						<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-							<ul class="nav navbar-nav menu_nav ml-auto">
-								<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li> 
-								<li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li> 
-								<li class="nav-item"><a class="nav-link" href="services.html">Services</a></li> 
-								<li class="nav-item submenu dropdown">
-									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
-									<ul class="dropdown-menu">
-										<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-										<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
-									</ul>
-								</li> 
-								<li class="nav-item submenu dropdown">
-									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
-									<ul class="dropdown-menu">
-										<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-										<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
-									</ul>
-								</li> 
-								<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-							</ul>
-						</div> 
-					</div>
-            	</nav>
+        <nav class="navbar navbar-expand-lg navbar-dark" id="nav-scroll">
+            <a class="navbar-brand" href="#"><img src="./images/akshay.jpeg" id="pic"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">ABOUT <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#experience">EXPERIENCE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#education">EDUCATION</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#skills">SKILLS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#certifications">CERTIFICATIONS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#projects">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#awards">AWARDS</a>
+                </li>
+              </ul>
             </div>
-        </header>
-        <!--================Header Menu Area =================-->
-        
-        <!--================Home Banner Area =================-->
-        <section class="home_banner_area">
-           	<div class="container box_1620">
-           		<div class="banner_inner d-flex align-items-center">
-					<div class="banner_content">
-						<div class="media">
-							<div class="d-flex">
-								<img src="img/personal.jpg" alt="">
-							</div>
-							<div class="media-body">
-								<div class="personal_text">
-									<h6>Hello Everybody, i am</h6>
-									<h3>Donald McKinney</h3>
-									<h4>Junior UI/UX Developer</h4>
-									<p>You will begin to realise why this exercise is called the Dickens Pattern (with reference to the ghost showing Scrooge some different futures)</p>
-									<ul class="list basic_info">
-										<li><a href="#"><i class="lnr lnr-calendar-full"></i> 31st December, 1992</a></li>
-										<li><a href="#"><i class="lnr lnr-phone-handset"></i> 44 (012) 6954 783</a></li>
-										<li><a href="#"><i class="lnr lnr-envelope"></i> businessplan@donald</a></li>
-										<li><a href="#"><i class="lnr lnr-home"></i> Santa monica bullevard</a></li>
-									</ul>
-									<ul class="list personal_social">
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+          </nav>
+        <div class="container jumbotron" id="about">
+            <h1 class="display-2">AKSHAY <span style="color: #002080">BENGANI</span></h1>
+            <h6>Sitapura Industrial Area, Vidhani
+              Jaipur-303905 | (+91)737929302 | <a href="mailto:akshaybengani@gmail.com" style="color: #002080">akshaybengani@gmail.com</a></h6>
+            <br><br>
+            <p class="text-muted">I am a Graphic Designer and an Android Developer, I have 3 years experience in Graphic Designing and have designed Graphics for a lot of companies and institutes, In my current experience of designing, I have designed Posters, Standees, Logo's, Banners, Web Banners, Photo Frames, Typography, Certificates, ID Cards, Edit Documents, Social Media Posts, Infographics, Email Newsletters and lot more different type of Graphics. Since I am an Android developer also and I have developed apps for the market and can build any native app.</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/akshaybengani/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://www.behance.net/akshaybengani" target="_blank"><i class="fab fa-behance"></i></a>
+              <a href="https://github.com/akshaybengani" target="_blank"><i class="fab fa-github"></i></a>
+
             </div>
-        </section>
-        <!--================End Home Banner Area =================-->
+        </div>
+        <hr>
+
+        <div class="container jumbotron" id="experience">
+            <h1 class="display-2">WORK EXPERIENCE</h1><br><br>
+            <h4>GRAPHIC INTERN</h4>
+            <p class="text-md-right text-muted year">June 2018 - July 2018 | Mumbai, India</p>
+            <h5 class="text-muted"><strong>ErgodE Inc</strong></h5><br>
+            <p class="text-muted">My responsibilities included designing Creative Banners and Infographics for the company's e-commerce websites and handling on-demand graphics, client updations, rebranding products etc.</p><br><br>
+
+            <h4>DIGITAL MEDIA GRAPHIC INTERN</h4>
+            <p class="text-md-right text-muted year">May 2017 - May 2017 | Jaipur, India</p>
+            <h5 class="text-muted"><strong>JECRC University</strong></h5><br>
+            <p class="text-muted">My responsibilities included designing posters and social media post for the university social media platforms.</p><br><br>
+
+            <h4>WEB DEVELOPER AND GRAPHIC DESIGNER</h4>
+            <p class="text-md-right text-muted year">May 2017 - July 2017 | Jaipur, India</p>
+            <h5 class="text-muted"><strong>Tripotreat</strong></h5><br>
+            <p class="text-muted">My responsibility was to build the company website and design event graphics and promotional designs for the operations of the company.
+            </p>
+        </div>
+        <hr class="underline">
+
+        <div class="container jumbotron" id="education">
+            <h1 class="display-2">EDUCATION</h1><br><br>
+            <h4>Bachelors in Computer Applications</h4>
+            <p class="text-md-right text-muted year">July 2016 - Present | Jaipur, India</p>
+            <h5 class="text-muted"><strong>JECRC University</strong></h5><br><br>
+
+            <h4>High School</h4>
+            <p class="text-md-right text-muted year">1998 - 2016 | Rajasthan, India</p>
+            <h5 class="text-muted"><strong>K.D.Jain Public School</strong></h5><br>
+        </div>
+        <hr class="underline-edu">
+
+        <div class="container jumbotron" id="skills">
+            <h1 class="display-2">SKILLS</h1><br><br>
+            <h4 class="text-muted">PROGRAMMING LANGUAGES & TOOLS</h4><br>
+            <ul class="skill-icons">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Node JS</li>
+              <li>SASS</li>
+              <li>Python</li>
+              <li>Java</li>
+              <li>Android</li>
+              <li>Adobe</li>
+              <li>Docker</li>
+              <li>AWS</li>
+            </ul>
+            <br>
+
+            <h4 class="text-muted">WORKFLOW</h4><br>
+            <span class="workflow">
+            <ul>
+              <li>Web Design & Development</li>
+              <li>UI/UX</li>
+              <li>Android Development</li>
+              <li>Machine Learning</li>
+              <li>Deep Learning</li>
+            </ul>
+            </span>
+        </div>
+        <hr class="underline">
         
-        <!--================Welcome Area =================-->
-        <section class="welcome_area p_120">
-        	<div class="container">
-        		<div class="row welcome_inner">
-        			<div class="col-lg-6">
-        				<div class="welcome_text">
-        					<h4>About Myself</h4>
-        					<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed.</p>
-        					<div class="row">
-        						<div class="col-md-4">
-        							<div class="wel_item">
-        								<i class="lnr lnr-database"></i>
-        								<h4>$2.5M</h4>
-        								<p>Total Donation</p>
-        							</div>
-        						</div>
-        						<div class="col-md-4">
-        							<div class="wel_item">
-        								<i class="lnr lnr-book"></i>
-        								<h4>1465</h4>
-        								<p>Total Projects</p>
-        							</div>
-        						</div>
-        						<div class="col-md-4">
-        							<div class="wel_item">
-        								<i class="lnr lnr-users"></i>
-        								<h4>3965</h4>
-        								<p>Total Volunteers</p>
-        							</div>
-        						</div>
-        					</div>
-        				</div>
-        			</div>
-        			<div class="col-lg-6">
-        				<div class="tools_expert">
-        					<div class="skill_main">
-								<div class="skill_item">
-									<h4>After Effects <span class="counter">85</span>%</h4>
-									<div class="progress_br">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-									</div>
-								</div>
-								<div class="skill_item">
-									<h4>Photoshop <span class="counter">90</span>%</h4>
-									<div class="progress_br">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-									</div>
-								</div>
-								<div class="skill_item">
-									<h4>Illustrator <span class="counter">70</span>%</h4>
-									<div class="progress_br">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-									</div>
-								</div>
-								<div class="skill_item">
-									<h4>Sublime <span class="counter">95</span>%</h4>
-									<div class="progress_br">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-									</div>
-								</div>
-								<div class="skill_item">
-									<h4>Sketch <span class="counter">75</span>%</h4>
-									<div class="progress_br">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-									</div>
-								</div>
-							</div>
-        				</div>
-        			</div>
-        		</div>
-        	</div>
-        </section>
-        <!--================End Welcome Area =================-->
+        <div class="container jumbotron" id="certifications">
+          <h1 class="display-2">CERTIFICATIONS</h1><br><br>
+            <p class="text-muted"><i class="fas fa-check"></i> Specialization in Cisco networking</p>
+            <p class="text-muted"><i class="fas fa-check"></i> Advanced Android App Development</p>
+            <p class="text-muted"><i class="fas fa-check"></i> Android Development</p>
+            <p class="text-muted"><i class="fas fa-check"></i> Machine Learning</p>
+            <p class="text-muted"><i class="fas fa-check"></i> Deep Learning</p>
+        </div>
+        <hr>
         
-        <!--================My Tabs Area =================-->
-        <section class="mytabs_area p_120">
-        	<div class="container">
-        		<div class="tabs_inner">
-					<ul class="nav nav-tabs" id="myTab" role="tablist">
-						<li class="nav-item">
-							<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">My Experiences</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">My Education</a>
-						</li>
-					</ul>
-					<div class="tab-content" id="myTabContent">
-						<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-							<ul class="list">
-								<li>
-									<span></span>
-									<div class="media">
-										<div class="d-flex">
-											<p>March 2017 to present</p>
-										</div>
-										<div class="media-body">
-											<h4>Colorlib</h4>
-											<p>Senior Web Developer <br />Santa monica, Los angeles</p>
-										</div>
-									</div>
-								</li>
-								<li>
-									<span></span>
-									<div class="media">
-										<div class="d-flex">
-											<p>March 2017 to present</p>
-										</div>
-										<div class="media-body">
-											<h4>Colorlib</h4>
-											<p>Senior Web Developer <br />Santa monica, Los angeles</p>
-										</div>
-									</div>
-								</li>
-								<li>
-								<span></span>
-									<div class="media">
-										<div class="d-flex">
-											<p>March 2017 to present</p>
-										</div>
-										<div class="media-body">
-											<h4>Colorlib</h4>
-											<p>Senior Web Developer <br />Santa monica, Los angeles</p>
-										</div>
-									</div>
-								</li>
-							</ul>
-						</div>
-						<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-							<ul class="list">
-								<li>
-									<span></span>
-									<div class="media">
-										<div class="d-flex">
-											<p>March 2017 to present</p>
-										</div>
-										<div class="media-body">
-											<h4>Colorlib</h4>
-											<p>Senior Web Developer <br />Santa monica, Los angeles</p>
-										</div>
-									</div>
-								</li>
-								<li>
-									<span></span>
-									<div class="media">
-										<div class="d-flex">
-											<p>March 2017 to present</p>
-										</div>
-										<div class="media-body">
-											<h4>Colorlib</h4>
-											<p>Senior Web Developer <br />Santa monica, Los angeles</p>
-										</div>
-									</div>
-								</li>
-								<li>
-								<span></span>
-									<div class="media">
-										<div class="d-flex">
-											<p>March 2017 to present</p>
-										</div>
-										<div class="media-body">
-											<h4>Colorlib</h4>
-											<p>Senior Web Developer <br />Santa monica, Los angeles</p>
-										</div>
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
-        		</div>
-        	</div>
-        </section>
-        <!--================End My Tabs Area =================-->
         
-        <!--================Feature Area =================-->
-        <section class="feature_area p_120">
-        	<div class="container">
-        		<div class="main_title">
-        			<h2>offerings to my clients</h2>
-        			<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each.</p>
-        		</div>
-        		<div class="feature_inner row">
-        			<div class="col-lg-4 col-md-6">
-        				<div class="feature_item">
-        					<i class="flaticon-city"></i>
-        					<h4>Architecture</h4>
-        					<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
-        				</div>
-        			</div>
-        			<div class="col-lg-4 col-md-6">
-        				<div class="feature_item">
-        					<i class="flaticon-skyline"></i>
-        					<h4>Interior Design</h4>
-        					<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
-        				</div>
-        			</div>
-        			<div class="col-lg-4 col-md-6">
-        				<div class="feature_item">
-        					<i class="flaticon-sketch"></i>
-        					<h4>Concept Design</h4>
-        					<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
-        				</div>
-        			</div>
-        		</div>
-        	</div>
-        </section>
-        <!--================End Feature Area =================-->
+        <!--PROJECTS SECTION----------------------------------->
+        <div class="container jumbotron" id="projects">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12" data-toggle="modal" data-target="#water-color">
+                 <img class="img-fluid" src="images/banner-category/WaterColor%20Month%20Web%20Banners.jpg" id="img-sz"><br><br>
+                 <h5>Watercolor Month Web Banners/ Social media</h5>
+                </div>
+                
+                <div class="col-lg-4 col-md-4 col-sm-12"  data-toggle="modal" data-target="#social-media">
+                 <img class="img-fluid" src="images/banner-category/Web%20Banners%20Social%20Media%20Posts%20Newsletter%20headers.jpg" id="img-sz" ><br><br>
+                <h5>Web Banners/ Social media Posts/ Newsletter Headers</h5>
+                </div>
+                
+                <div class="col-lg-4 col-md-4 col-sm-12"  data-toggle="modal" data-target="#independence-day">
+                 <img class="img-fluid" src="images/banner-category/Independence%20Day%20Sale%20Web%20Banners%20Social%20Media%20Posts.jpg" id="img-sz" ><br><br>
+                <h5>Independence Day Sale Web Banners/ Social media</h5>
+                </div>
+            </div><br>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12"  data-toggle="modal" data-target="#t-shirt" >
+                 <img class="img-fluid" src="images/banner-category/T-Shirt%20Designs.jpg" id="img-sz" ><br><br>
+                <h5>T-shirt Design</h5>
+                </div>
+                
+                <div class="col-lg-4 col-md-4 col-sm-12"  data-toggle="modal" data-target="#stickers" >
+                 <img class="img-fluid" src="images/banner-category/Stickers.jpg" id="img-sz"><br><br>
+                 <h5>Stickers</h5>
+                </div>
+                
+                <div class="col-lg-4 col-md-4 col-sm-12"  data-toggle="modal" data-target="#standees" >
+                 <img class="img-fluid" src="images/banner-category/Standees.jpg" id="img-sz"><br><br>
+                 <h5>Standees</h5>
+                </div>
+            </div><br>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12"  data-toggle="modal" data-target="#social-media-banners" >
+                 <img class="img-fluid" src="images/banner-category/Social%20Media%20Posts%20and%20Banners.jpg" id="img-sz"><br><br>
+                 <h5>Social media Posts/ Web Banners</h5>
+                </div>
+                
+                <div class="col-lg-4 col-md-4 col-sm-12"  data-toggle="modal" data-target="#re-branding" >
+                 <img class="img-fluid" src="images/banner-category/Rebranding%20and%20Catalog%20Design.jpg" id="img-sz"><br><br>
+                 <h5>Rebranding and Catalog Design</h5>
+                </div>
+                
+                <div class="col-lg-4 col-md-4 col-sm-12"  data-toggle="modal" data-target="#product-banners" >
+                 <img class="img-fluid" src="images/banner-category/Product%20Banners%20Social%20Media%20Posts.jpg" id="img-sz"><br><br>
+                 <h5>Product Banners/ Social media Posts</h5>
+                </div>
+            </div><br>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12"  data-toggle="modal" data-target="#posters-flex" >
+                 <img class="img-fluid" src="images/banner-category/Poster%20Flex.jpg" id="img-sz"><br><br>
+                 <h5>Posters/ Flex/ Banners</h5>
+                </div>
+                
+                <div class="col-lg-4 col-md-4 col-sm-12"  data-toggle="modal" data-target="#posters-ju" >
+                 <img class="img-fluid" src="images/banner-category/Posters%20Ju%20Rhythm.jpg" id="img-sz"><br><br>
+                 <h5>Posters(JU-Rythm-2017)</h5>
+                </div>
+                
+                <div class="col-lg-4 col-md-4 col-sm-12"  data-toggle="modal" data-target="#logo-designs" >
+                 <img class="img-fluid" src="images/banner-category/Logo%20Designs.jpg" id="img-sz"><br><br>
+                 <h5>Logo Designs</h5>
+                </div>
+            </div><br>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12"  data-toggle="modal" data-target="#rakhi" >
+                 <img class="img-fluid" src="images/banner-category/Rakhi%20Invitation%20Cards.jpg" id="img-sz"><br><br>
+                 <h5>Rakhi Invitation Cards</h5>
+                </div>
+                
+                <div class="col-lg-4 col-md-4 col-sm-12"  data-toggle="modal" data-target="#infographics" >
+                 <img class="img-fluid" src="images/banner-category/Infographics%20Product%20Design.jpg" id="img-sz" onclick="show-card()"><br><br>
+                 <h5>Infographics Product Design</h5>
+                </div>
+                
+                <div class="col-lg-4 col-md-4 col-sm-12"  data-toggle="modal" data-target="#icons" >
+                 <img class="img-fluid" src="images/banner-category/Icons%20For%20All%20Sizes.jpg" id="img-sz"><br><br>
+                 <h5>Icons for all sizes</h5>
+                </div>
+            </div><br>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12"  data-toggle="modal" data-target="#backdrops" >
+                 <img class="img-fluid" src="images/banner-category/Backdrops%20Flyers.jpg" id="img-sz"><br><br>
+                 <h5>Backdrops/ Flyers</h5>
+                </div>
+                
+                <div class="col-lg-4 col-md-4 col-sm-12"  data-toggle="modal" data-target="#newsletters" >
+                 <img class="img-fluid" src="images/banner-category/Email%20NewsLetters.jpg" id="img-sz"><br><br>
+                 <h5>Email Newsletters</h5>
+                </div>
+                
+                <div class="col-lg-4 col-md-4 col-sm-12"  data-toggle="modal" data-target="#logo-collage" >
+                 <img class="img-fluid" src="images/banner-category/Logo%20Collage.jpg" id="img-sz"><br><br>
+                 <h5>Logo Collage</h5>
+                </div>
+            </div><br>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12"  data-toggle="modal" data-target="#certificates" >
+                 <img class="img-fluid" src="images/banner-category/Certificates%20and%20Experience%20Letters.jpg" id="img-sz"><br><br>
+                 <h5>Certificates and Experience Letters</h5>
+                </div>
+                
+                <div class="col-lg-4 col-md-4 col-sm-12"  data-toggle="modal" data-target="#leaflets" >
+                 <img class="img-fluid" src="images/banner-category/Leaflet%20Brochure%20design%20Ju%20Rhythm.jpg" id="img-sz"><br><br>
+                 <h5>Leaflet/Brochure Design for JU_Rhythm 2017</h5>
+                </div>
+                
+                <div class="col-lg-4 col-md-4 col-sm-12"  data-toggle="modal" data-target="#water-color" >
+                 <img class="img-fluid" src="images/banner-category/Product%20Banners%20Social%20Media%20Posts.jpg" id="img-sz"><br><br>
+                 <h5>Product Brochure/Catalog Design</h5>
+                </div>
+            </div><br>
+            
+             <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12"  data-toggle="modal" data-target="#adhoc-apps" >
+                 <img class="img-fluid" src="images/banner-category/Adhoc%20Networks%20Android%20App%20ScreenShots%20.jpg" id="img-sz"><br><br>
+                 <h5>Adhoc Networks Android App Screenshots</h5>
+                </div>
+             </div><br>
+        </div>
+        <hr>
+        <!--------------------------------------------END-------------------------------------------->
         
-        <!--================Home Gallery Area =================-->
-        <section class="home_gallery_area p_120">
-        	<div class="container">
-        		<div class="main_title">
-        			<h2>Our Latest Featured Projects</h2>
-        			<p>Who are in extremely love with eco friendly system.</p>
-        		</div>
-        		<div class="isotope_fillter">
-        			<ul class="gallery_filter list">
-						<li class="active" data-filter="*"><a href="#">All</a></li>
-						<li data-filter=".brand"><a href="#">Vector</a></li>
-						<li data-filter=".manipul"><a href="#">Raster</a></li>
-						<li data-filter=".creative"><a href="#">UI/UX</a></li>
-						<li data-filter=".design"><a href="#">Printing</a></li>
-					</ul>
-        		</div>
-        	</div>
-        	<div class="container">
-        		<div class="gallery_f_inner row imageGallery1">
-        			<div class="col-lg-4 col-md-4 col-sm-6 brand manipul design print">
-        				<div class="h_gallery_item">
-        					<div class="g_img_item">
-        						<img class="img-fluid" src="img/gallery/project-1.jpg" alt="">
-        						<a class="light" href="img/gallery/project-1.jpg"><img src="img/gallery/icon.png" alt=""></a>
-        					</div>
-        					<div class="g_item_text">
-        						<h4>3D Helmet Design</h4>
-        						<p>Client Project</p>
-        					</div>
-        				</div>
-        			</div>
-        			<div class="col-lg-4 col-md-4 col-sm-6 brand manipul creative">
-        				<div class="h_gallery_item">
-        					<div class="g_img_item">
-        						<img class="img-fluid" src="img/gallery/project-2.jpg" alt="">
-        						<a class="light" href="img/gallery/project-2.jpg"><img src="img/gallery/icon.png" alt=""></a>
-        					</div>
-        					<div class="g_item_text">
-        						<h4>2D Vinyl Design</h4>
-        						<p>Client Project</p>
-        					</div>
-        				</div>
-        			</div>
-        			<div class="col-lg-4 col-md-4 col-sm-6 manipul creative design print">
-        				<div class="h_gallery_item">
-        					<div class="g_img_item">
-        						<img class="img-fluid" src="img/gallery/project-3.jpg" alt="">
-        						<a class="light" href="img/gallery/project-3.jpg"><img src="img/gallery/icon.png" alt=""></a>
-        					</div>
-        					<div class="g_item_text">
-        						<h4>Creative Poster Design</h4>
-        						<p>Client Project</p>
-        					</div>
-        				</div>
-        			</div>
-        			<div class="col-lg-4 col-md-4 col-sm-6 brand creative print">
-        				<div class="h_gallery_item">
-        					<div class="g_img_item">
-        						<img class="img-fluid" src="img/gallery/project-4.jpg" alt="">
-        						<a class="light" href="img/gallery/project-4.jpg"><img src="img/gallery/icon.png" alt=""></a>
-        					</div>
-        					<div class="g_item_text">
-        						<h4>Embosed Logo Design</h4>
-        						<p>Client Project</p>
-        					</div>
-        				</div>
-        			</div>
-        			<div class="col-lg-4 col-md-4 col-sm-6 brand manipul design">
-        				<div class="h_gallery_item">
-        					<div class="g_img_item">
-        						<img class="img-fluid" src="img/gallery/project-5.jpg" alt="">
-        						<a class="light" href="img/gallery/project-5.jpg"><img src="img/gallery/icon.png" alt=""></a>
-        					</div>
-        					<div class="g_item_text">
-        						<h4>3D Disposable Bottle</h4>
-        						<p>Client Project</p>
-        					</div>
-        				</div>
-        			</div>
-        			<div class="col-lg-4 col-md-4 col-sm-6 brand creative">
-        				<div class="h_gallery_item">
-        					<div class="g_img_item">
-        						<img class="img-fluid" src="img/gallery/project-6.jpg" alt="">
-        						<a class="light" href="img/gallery/project-6.jpg"><img src="img/gallery/icon.png" alt=""></a>
-        					</div>
-        					<div class="g_item_text">
-        						<h4>3D Logo Design</h4>
-        						<p>Client Project</p>
-        					</div>
-        				</div>
-        			</div>
-        		</div>
-        		<div class="more_btn">
-        			<a class="main_btn" href="#">Load More Items</a>
-        		</div>
-        	</div>
-        </section>
-        <!--================End Home Gallery Area =================-->
-        
-        <!--================Testimonials Area =================-->
-        <section class="testimonials_area p_120">
-        	<div class="container">
-        		<div class="main_title">
-        			<h2>Testimonials</h2>
-        			<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each.</p>
-        		</div>
-        		<div class="testi_inner">
-					<div class="testi_slider owl-carousel">
-						<div class="item">
-							<div class="testi_item">
-								<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel across her face</p>
-								<h4>Fanny Spencer</h4>
-								<a href="#"><i class="fa fa-star"></i></a>
-								<a href="#"><i class="fa fa-star"></i></a>
-								<a href="#"><i class="fa fa-star"></i></a>
-								<a href="#"><i class="fa fa-star"></i></a>
-								<a href="#"><i class="fa fa-star-half-o"></i></a>
-							</div>
-						</div>
-						<div class="item">
-							<div class="testi_item">
-								<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel across her face</p>
-								<h4>Fanny Spencer</h4>
-								<a href="#"><i class="fa fa-star"></i></a>
-								<a href="#"><i class="fa fa-star"></i></a>
-								<a href="#"><i class="fa fa-star"></i></a>
-								<a href="#"><i class="fa fa-star"></i></a>
-								<a href="#"><i class="fa fa-star-half-o"></i></a>
-							</div>
-						</div>
-						<div class="item">
-							<div class="testi_item">
-								<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel across her face</p>
-								<h4>Fanny Spencer</h4>
-								<a href="#"><i class="fa fa-star"></i></a>
-								<a href="#"><i class="fa fa-star"></i></a>
-								<a href="#"><i class="fa fa-star"></i></a>
-								<a href="#"><i class="fa fa-star"></i></a>
-								<a href="#"><i class="fa fa-star-half-o"></i></a>
-							</div>
-						</div>
-					</div>
-        		</div>
-        	</div>
-        </section>
-        <!--================End Testimonials Area =================-->
-        
-        <!--================Footer Area =================-->
-        <footer class="footer_area p_120">
-        	<div class="container">
-        		<div class="row footer_inner">
-        			<div class="col-lg-5 col-sm-6">
-        				<aside class="f_widget ab_widget">
-        					<div class="f_title">
-        						<h3>About Me</h3>
-        					</div>
-        					<p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills,</p>
-        					<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-        				</aside>
-        			</div>
-        			<div class="col-lg-5 col-sm-6">
-        				<aside class="f_widget news_widget">
-        					<div class="f_title">
-        						<h3>Newsletter</h3>
-        					</div>
-        					<p>Stay updated with our latest trends</p>
-        					<div id="mc_embed_signup">
-                                <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative">
-                                	<div class="input-group d-flex flex-row">
-                                        <input name="EMAIL" placeholder="Enter email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
-                                        <button class="btn sub-btn"><span class="lnr lnr-arrow-right"></span></button>		
-                                    </div>				
-                                    <div class="mt-10 info"></div>
-                                </form>
+        <!-------------------MODAAAALLLLLLLL CALL----------------->
+        <!-- Modal -->
+        <div class="modal fade" id="water-color" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="exampleModalLabel">Watercolor Month Web Banners/ Social media Posts</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <div class="container-fluid">
+                                <img src="images/watercolor/img1.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/watercolor/img2.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/watercolor/img3.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/watercolor/img4.jpg" class="img-fluid">
                             </div>
-        				</aside>
-        			</div>
-        			<div class="col-lg-2">
-        				<aside class="f_widget social_widget">
-        					<div class="f_title">
-        						<h3>Follow Me</h3>
-        					</div>
-        					<p>Let us be social</p>
-        					<ul class="list">
-        						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-        						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-        						<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-        						<li><a href="#"><i class="fa fa-behance"></i></a></li>
-        					</ul>
-        				</aside>
-        			</div>
-        		</div>
-        	</div>
-        </footer>
-        <!--================End Footer Area =================-->
+                        </div>
+                </div>        
+            </div>
+        </div>
         
         
+        <!--MODAL 2------------->
+        <div class="modal fade" id="social-media" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="exampleModalLabel">Web Banners/ Social Media Posts/ Newsletter Headers</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <div class="container-fluid">
+                                <img src="images/social-media/img1.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/social-media/img2.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/social-media/img3.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/social-media/img4.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/social-media/img5.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/social-media/img6.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/social-media/img7.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/social-media/img8.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/social-media/img9.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/social-media/img10.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/social-media/img11.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/social-media/img12.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/social-media/img13.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/social-media/img14.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/social-media/img15.jpg" class="img-fluid">
+                            </div>
+                        </div>
+                </div>        
+            </div>
+        </div>
         
         
+        <!--MODAL 3------------->
+        <div class="modal fade" id="independence-day" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="exampleModalLabel">Independence Day Sale Web Banners/Social Media Posts</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <div class="container-fluid">
+                                <img src="images/independence-day/img1.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/independence-day/img2.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/independence-day/img3.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/independence-day/img4.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/independence-day/img5.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/independence-day/img6.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/independence-day/img7.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/independence-day/img8.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/independence-day/img9.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/independence-day/img10.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/independence-day/img11.jpg" class="img-fluid">
+                            </div>
+                        </div>
+                </div>        
+            </div>
+        </div>
         
+        <!--MODAL 4------------->
+        <div class="modal fade" id="t-shirt" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="exampleModalLabel">T-Shirt Design</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <div class="container-fluid">
+                                <img src="images/t-shirt/img1.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/t-shirt/img2.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/t-shirt/img3.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/t-shirt/img4.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/t-shirt/img5.jpg" class="img-fluid">
+                            </div>
+                        </div>
+                </div>        
+            </div>
+        </div>
         
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="js/jquery-3.3.1.min.js"></script>
-        <script src="js/popper.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/stellar.js"></script>
-        <script src="vendors/lightbox/simpleLightbox.min.js"></script>
-        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
-        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-        <script src="vendors/isotope/isotope.pkgd.min.js"></script>
-        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-        <script src="vendors/popup/jquery.magnific-popup.min.js"></script>
-        <script src="js/jquery.ajaxchimp.min.js"></script>
-        <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
-        <script src="vendors/counter-up/jquery.counterup.min.js"></script>
-        <script src="js/mail-script.js"></script>
-        <script src="js/theme.js"></script>
+        <!--MODAL 5------------->
+        <div class="modal fade" id="stickers" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="exampleModalLabel">Stickers</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <div class="container-fluid">
+                                <img src="images/stickers/img1.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/stickers/img2.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/stickers/img3.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/stickers/img4.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/stickers/img5.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/stickers/img6.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/stickers/img7.jpg" class="img-fluid">
+                            </div>
+                        </div>
+                </div>        
+            </div>
+        </div>
+        
+        <!--MODAL 6------------->
+        <div class="modal fade" id="standees" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="exampleModalLabel">Standees</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <div class="container-fluid">
+                                <img src="images/standees/img1.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/standees/img2.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/standees/img3.png" class="img-fluid">
+                            </div>
+                        </div>
+                </div>        
+            </div>
+        </div>
+        
+        <!--MODAL 7------------->
+        <div class="modal fade" id="social-media-banners" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="exampleModalLabel">Social Media Posts/Banners</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <div class="container-fluid">
+                                <img src="images/social-media-banners/img1.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/social-media-banners/img3.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/social-media-banners/img4.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/social-media-banners/img5.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/social-media-banners/img6.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/social-media-banners/img7.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/social-media-banners/img8.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/social-media-banners/img9.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/social-media-banners/img10.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/social-media-banners/img11.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/social-media-banners/img12.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/social-media-banners/img13.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/social-media-banners/img14.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/social-media-banners/img15.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/social-media-banners/img16.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/social-media-banners/img17.jpg" class="img-fluid">
+                            </div>
+                        </div>
+                </div>        
+            </div>
+        </div>
+        
+        <!--MODAL 8------------->
+        <div class="modal fade" id="re-branding" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="exampleModalLabel">Rebranding and Catalog Design</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <div class="container-fluid">
+                                <img src="images/re-branding/img1.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/re-branding/img2.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/re-branding/img3.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/re-branding/img4.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/re-branding/img5.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/re-branding/img6.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/re-branding/img7.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/re-branding/img8.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/re-branding/img9.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/re-branding/img10.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/re-branding/img11.jpg" class="img-fluid">
+                            </div>
+                        </div>
+                </div>        
+            </div>
+        </div>
+        
+         <!--MODAL 9------------->
+        <div class="modal fade" id="product-banners" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="exampleModalLabel">Product Banners/Social Media Posts</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <div class="container-fluid">
+                                <img src="images/product-banners/img1.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/product-banners/img2.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/product-banners/img3.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/product-banners/img4.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/product-banners/img5.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/product-banners/img6.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/product-banners/img7.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/product-banners/img8.jpg" class="img-fluid">
+                            </div>
+                        </div>
+                </div>        
+            </div>
+        </div>
+        
+        <!--MODAL 10------------->
+        <div class="modal fade" id="posters-flex" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="exampleModalLabel">Posters/Flex/Banners</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <div class="container-fluid">
+                                <img src="images/posters-flex/img1.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/posters-flex/img2.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/posters-flex/img3.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/posters-flex/img4.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/posters-flex/img5.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/posters-flex/img6.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/posters-flex/img7.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/posters-flex/img8.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/posters-flex/img9.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/posters-flex/img10.jpeg" class="img-fluid">
+                                <br><br>
+                                <img src="images/posters-flex/img11.jpeg" class="img-fluid">
+                            </div>
+                        </div>
+                </div>        
+            </div>
+        </div>
+        
+        <!--MODAL 11------------->
+        <div class="modal fade" id="posters-ju" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="exampleModalLabel">Posters/Flex/Banners</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <div class="container-fluid">
+                                <img src="images/posters-ju/img1.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/posters-ju/img2.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/posters-ju/img3.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/posters-ju/img4.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/posters-ju/img5.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/posters-ju/img6.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/posters-ju/img7.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/posters-ju/img8.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/posters-ju/img9.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/posters-ju/img10.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/posters-ju/img11.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/posters-ju/img12.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/posters-ju/img13.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/posters-ju/img14.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/posters-ju/img15.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/posters-ju/img16.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/posters-ju/img17.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/posters-ju/img18.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/posters-ju/img19.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/posters-ju/img20.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/posters-ju/img21.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/posters-ju/img22.jpg" class="img-fluid">
+                            </div>
+                        </div>
+                </div>        
+            </div>
+        </div>
+        
+         <!--MODAL 12------------->
+        <div class="modal fade" id="logo-designs" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="exampleModalLabel">Logo Designs</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <div class="container-fluid">
+                                <img src="images/logo-design/img1.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/logo-design/img2.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/logo-design/img3.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/logo-design/img4.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/logo-design/img5.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/logo-design/img6.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/logo-design/img7.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/logo-design/img8.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/logo-design/img9.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/logo-design/img10.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/logo-design/img11.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/logo-design/img12.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/logo-design/img13.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/logo-design/img14.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/logo-design/img15.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/logo-design/img16.png" class="img-fluid">
+                            </div>
+                        </div>
+                </div>        
+            </div>
+        </div>
+        
+        <!-- Modal 13 -->
+        <div class="modal fade" id="rakhi" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="exampleModalLabel">Rakhi Invitation Cards</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <div class="container-fluid">
+                                <img src="images/rakhi/img1.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/rakhi/img2.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/rakhi/img3.jpg" class="img-fluid">
+                            </div>
+                        </div>
+                </div>        
+            </div>
+        </div>
+        
+        <!--MODAL 14------------->
+        <div class="modal fade" id="infographics" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="exampleModalLabel">Infographics Product Design</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <div class="container-fluid">
+                                <img src="images/infographics/img1.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/infographics/img2.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/infographics/img3.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/infographics/img4.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/infographics/img5.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/infographics/img6.png" class="img-fluid">
+                            </div>
+                        </div>
+                </div>        
+            </div>
+        </div>
+        
+        <!--MODAL 15------------->
+        <div class="modal fade" id="icons" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="exampleModalLabel">Icons For All Sizes</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <div class="container-fluid">
+                                <img src="images/icons/img1.jpg" class="img-fluid">
+                            </div>
+                        </div>
+                </div>        
+            </div>
+        </div>
+        
+         <!--MODAL 16------------->
+        <div class="modal fade" id="backdrops" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="exampleModalLabel">Backdrops/Flyers</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <div class="container-fluid">
+                                <img src="images/backdrops/img1.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/backdrops/img2.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/backdrops/img3.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/backdrops/img4.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/backdrops/img5.png" class="img-fluid">
+                            </div>
+                        </div>
+                </div>        
+            </div>
+        </div>
+        
+        <!--MODAL 17------------->
+        <div class="modal fade" id="newsletters" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="exampleModalLabel">Email Newsletters</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <div class="container-fluid">
+                                <img src="images/newsletters/img1.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/newsletters/img2.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/newsletters/img3.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/newsletters/img4.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/newsletters/img5.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/newsletters/img6.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/newsletters/img7.png" class="img-fluid">
+                            </div>
+                        </div>
+                </div>        
+            </div>
+        </div>
+        
+        <!--MODAL 18------------->
+        <div class="modal fade" id="logo-collage" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="exampleModalLabel">Logo Collage</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <div class="container-fluid">
+                                <img src="images/logo-collage/img1.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/logo-collage/img2.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/logo-collage/img3.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/logo-collage/img4.jpg" class="img-fluid">
+                            </div>
+                        </div>
+                </div>        
+            </div>
+        </div>
+        
+        <!-- Modal 19-->
+        <div class="modal fade" id="certificates" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="exampleModalLabel">Certificates and Experience Letters</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <div class="container-fluid">
+                                <img src="images/certificate/img1.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/certificate/img2.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/certificate/img3.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/certificate/img4.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/certificate/img5.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/certificate/img6.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/certificate/img7.png" class="img-fluid">
+                            </div>
+                        </div>
+                </div>        
+            </div>
+        </div>
+        
+         <!-- Modal 20-->
+        <div class="modal fade" id="leaflets" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="exampleModalLabel">Leaflets for JU Rythm 2017</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <div class="container-fluid">
+                                <img src="images/leaflet/img1.jpg" class="img-fluid">
+                                <br><br>
+                                <img src="images/leaflet/img2.jpg" class="img-fluid">
+                            </div>
+                        </div>
+                </div>        
+            </div>
+        </div>
+        
+        <!--MODAL 21------------->
+        <div class="modal fade" id="adhoc-apps" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="exampleModalLabel">Adhoc Networks Android App Screenshots</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <div class="container-fluid">
+                                <img src="images/addhoc-app/img1.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/addhoc-app/img2.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/addhoc-app/img3.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/addhoc-app/img4.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/addhoc-app/img5.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/addhoc-app/img6.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/addhoc-app/img7.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/addhoc-app/img8.png" class="img-fluid">
+                                <br><br>
+                                <img src="images/addhoc-app/img9.png" class="img-fluid">
+                            </div>
+                        </div>
+                </div>        
+            </div>
+        </div>
+        <!--------------------------MODAL END----------------------------------->
+
+        <div class="container jumbotron" id="awards">
+          <h1 class="display-2">AWARDS</h1><br><br>
+          <p><i class="fas fa-award award-ico"></i><span class="awards-txt text-muted"> &nbsp;Winner of Adhack 5.0 Hackathon</span></p>
+          
+        </div>
+        
+        <footer class="footer text-muted text-center">Developed by <a href="https://decoderrony.github.io" target="_blank" class="developer">Arpit Das</a> under <a href="https://softechux.com" target="_blank" class="company">SOFTECHUX</a></footer>
+        
+
+
+        <!--JQUERY FOR SCROLL ANIMATION-->
+          <script>
+            $(function() {
+            $('.nav-link').click(function() 
+            {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                $('html, body').animate({
+                  scrollTop: target.offset().top
+                }, 800);
+                return false;
+              }
+            }
+            });
+            });
+          </script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"  crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"  crossorigin="anonymous"></script>
     </body>
 </html>
